@@ -1,0 +1,23 @@
+h3{
+    font-size: 50px;
+    background-color: white;
+    color: rgb(122, 205, 138);
+}
+
+button{
+    width: 320px;
+    height: 140px;
+    background-color: rgb(189, 164, 212);
+    font-size: 50px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 40px purple;}
+    to{box-shadow: 2px 2px 40px greenyellow;}
+}
